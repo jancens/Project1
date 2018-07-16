@@ -3,13 +3,13 @@
 
 int main() {
 	
-	std::cout << "Hello world!";
+	std::cout << "Hello world!\n\n";
 
 	std::string input;
 
-	if (std::cin >> input) {
-		//
-	}
+	std::getline(std::cin, input);
+
+	std::cout << std::endl << input << std::endl;
 	
 	return 0;
 }
